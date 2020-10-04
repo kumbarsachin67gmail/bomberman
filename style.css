@@ -1,0 +1,74 @@
+
+:root {
+    --green: #3ba77b;
+    --light-green: #d8ede4;
+    --grey: #989898;
+    --light-grey: #dddddd;
+    --black: #b40c0c;
+    --white: #ffffff;
+    --background: #fafafa;
+    --red: #BD4931;
+    --yellow: #FFA700;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: var(--black);
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.container 
+{
+    display: flow-root;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    background: var(--white);
+    height: 449px;
+ }
+
+.box 
+{
+    float: left;
+    width: calc(50px - 2px);
+    height: calc(50px - 2px);
+    border: 1px solid var(--black);
+    cursor: pointer;
+
+    text-align: center;
+    font-size: 35px;
+}
+
+body 
+{
+    background: var(--background);
+}
+
+.container > button {
+    position: absolute;
+    bottom: -52px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--black);
+    background: var(--black);
+    color: var(--white);
+    font-size: 18px;
+    cursor: pointer;
+}
+.x 
+{
+    background: chartreuse;
+}
+.b 
+{
+    background: red;
+}
